@@ -115,7 +115,8 @@ function draw() {
     text("Drag the mouse to take the shot!!",displayWidth/2.67,displayHeight/40);
     Matter.Body.setPosition(ball.body,{x:displayWidth/2, y:displayHeight/3});
     slingshot.attach(ball.body);
-    console.log(touches)
+    console.log(touches);
+    touches= [];
   }
   
  //drawSprites();
